@@ -1,0 +1,19 @@
+{
+  "name": "nuuvem-challange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/dom": "10.4.0",
+    "@testing-library/jest-dom": "6.5.0",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "jsdom": "25.0.1"
+  }
+}

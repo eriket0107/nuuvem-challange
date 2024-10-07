@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuck Norris Joke Search</title>
+    <link rel="icon" href="/assets/chuck-norris.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+  <body>
+    <div style="display: flex; flex-direction: column; height: 100vh; position: relative; ">
+      <header>
+          <div class="container">
+              <h1>Chuck Norris Joke Search</h1>
+              <form id="search-form">
+                  <input type="text" id="search-input" placeholder="Search for Chuck Norris jokes..." >
+                  <div id="wrapper-btn">
+                    <button type="submit" id="submit-btn">Search</button>
+                    <button type="button" id="lucky-btn">I'm Feeling Lucky</button>
+                  </div>
+              </form>
+          </div>
+      </header>
+
+      <main>
+        <section id="results-container"></section>
+        <span id="loading" class="loader"></span>
+        <div id="img-wrapper">
+          <img src="/assets/chuck-norris.png" width="100px"/>
+          <p>Chuck is waiting...</p>
+        </div>
+      </main>
+
+      <footer>
+        <span>&copy; 2024 Chuck Norris Jokes. Powered by ChuckNorris.io API</span>
+        <span>Created By:  <strong>Erik Oliveira</strong> for Nuuvem Challange</span>
+      </footer>
+    </div>
+    <script src="js/app.js"/>
+  </body>
+</html>
