@@ -2,7 +2,7 @@
   "name": "nuuvem-challange",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.html",
   "scripts": {
     "test": "jest --coverage",
     "test:watch": "jest --watch"
